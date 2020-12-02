@@ -1,0 +1,9 @@
+body{
+  margin: auto;
+  background: lightgrey;
+  font-family: serif;
+}
+.navbar {
+  margin: auto;
+  border-bottom: 1px solid;
+}

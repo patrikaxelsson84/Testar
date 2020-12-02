@@ -1,0 +1,9 @@
+.main-div {
+  display: flex;
+border: 1px solid blue;
+flex-direction: row;
+}
+.main-div div {
+  width: 200px;
+  border: 1px solid black;
+}

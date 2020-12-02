@@ -1,0 +1,130 @@
+
+html {
+	margin: 0;
+	padding: 0;
+	}
+body {
+	font: 75% georgia, sans-serif;
+	line-height: 1;
+	text-shadow: 2px 0.9px white;
+	color: black;
+	margin: 0;
+	padding: 0;
+	}
+p {
+	margin-top: 0;
+	text-align: justify;
+	}
+h3 {
+	color: Red;
+	}
+a:link {
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: underline;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+	}
+a:visited {
+
+
+	}
+a:hover, a:focus, a:active {
+	color: red;
+	}
+abbr {
+	border-bottom: none;
+	}
+/* specific divs */
+.page-wrapper {
+	background: url(rozen.jpg);
+	background-size: cover;
+	padding: 0 200px 0 50px;
+	background-size: contain;
+	}
+.intro {
+
+	}
+header h1 {
+
+	background: #232323;
+	text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+	writing-mode: vertical-rl;
+  text-orientation: upright;
+	color: red;
+float: right;
+	}
+header h2 {
+	background: #232323;
+	text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+	writing-mode: vertical-rl;
+  text-orientation: upright;
+	color: red;
+float: left;
+
+	}
+header {
+
+
+}
+.summary {
+	padding-top: 10px;
+	color: red;
+	  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+		border:1px solid #cccccc; vertical-align:top; text-align:center; margin-bottom:5px;
+		border-width: 10px;
+		border-radius: 75px;
+		border-top:
+	}
+.summary p {
+	}
+.preamble {text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+	border:1px solid #cccccc; vertical-align:top; text-align:center; margin-bottom:5px;
+	border-width: 5px;						<!-- tjocklek på kantlinjen-->
+	border-radius: 75px;					<!-- rundar av hörnen-->
+	}
+.supporting {
+	font-size: 13px;						<!-- storlek på bokstäverna-->
+	}
+	.explanation{
+
+	}
+.explanation h3{
+letter-spacing: -2px;  			<!-- mellanrum mellan bokstäverna-->
+}
+footer {
+
+
+	}
+footer a:link, footer a:visited {
+
+	}
+.sidebar {
+	}
+.sidebar .wrapper { 
+	position: absolute;
+	top: 10px;
+	right: 0;
+	width:300px;
+	height: 320px;
+
+	}
+.sidebar h3.select {
+	}
+.sidebar h3.archives {
+	}
+.sidebar h3.resources {
+	}
+.sidebar ul {		color: blue;
+
+	}
+.sidebar li {
+
+	}
+.sidebar li a:link {		color: lightgrey;
+	}
+.sidebar li a:visited {
+	}
+.extra1{
+
+	}

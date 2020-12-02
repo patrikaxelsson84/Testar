@@ -1,0 +1,31 @@
+#cal-container {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  margin: 150px 300px;
+}
+#cal-header {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+i {
+  font-size: 18px;
+}
+.month-year {
+  display: inline;
+}
+
+.Day {
+  display: flex;
+  justify-content: space-around;
+}
+.daynr {
+  display: flex;
+  justify-content: space-around;
+}
+.day-year {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+}

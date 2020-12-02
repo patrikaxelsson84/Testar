@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="cal.css" />
+    <meta charset="utf-8" />
+    <title>Calendar</title>
+  </head>
+
+  <body>
+    <div id="cal-container">
+      <div id="cal-header">
+        <div>
+          <i onclick="changeMonth('minus')"><</i>
+          <p class="month-year" id="month"></p>
+          <i onclick="changeMonth('add')">></i>
+        </div>
+        <div>
+          <i onclick="changeYear('minus')"><</i>
+          <p class="month-year" id="year"></p>
+          <i onclick="changeYear('add')">></i>
+        </div>
+      </div>
+      <div id="days-container">
+        <div class="Day">
+          <p>Sun</p>
+          <p>Mon</p>
+          <p>Tue</p>
+          <p>Wed</p>
+          <p>Thu</p>
+          <p>Fri</p>
+          <p>Sat</p>
+        </div>
+        <div class="daynr">
+          <div id="0" class="day-column"></div>
+          <div id="1" class="day-column"></div>
+          <div id="2" class="day-column"></div>
+          <div id="3" class="day-column"></div>
+          <div id="4" class="day-column"></div>
+          <div id="5" class="day-column"></div>
+          <div id="6" class="day-column"></div>
+        </div>
+      </div>
+    </div>
+    <h1 id="date-display" class="Day-year"></h1>
+    <script src="cal.js"></script>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="testar.css">
+<body>
+
+
+
+<h1>Favorit sökningsmotor </h1>
+
+	<form action="/action_page.php">
+	  <label for="name"><b>Förnamn:</label>
+	  <input type="text" id="name" name="name" maxlength="20"><br><br>
+	  <input type="submit" value="Enter">
+	</form>
+<hr><label for="AboutYou">Beskriv dig själv:</label>
+<br><br>
+<form action="/action_page.php">
+
+<textarea id="rutan" name="AboutYou" rows="4" cols="30">
+
+  </textarea>
+  <br><br>
+  <input type="submit" value="Enter">
+</form>
+
+<hr><label for="omdig"><i>Tränar du någon sport?</i></label>
+<br><br>
+ <form action="">
+   <input type="radio" name="sport" value="ja"><strong>JA</strong><br>
+   <input type="radio" name="sport" value="nej"><strong>NEJ</strong><br>
+ </form>
+<hr>
+ <b><i>På vilket/vilka sätt föredrar du att läsa om intresanta saker?
+<br><br>
+ <form action="/action_page.php">
+   <input type="checkbox" id="bok" name="bok" value="bok">
+   <label for="bok"> Böcker</label><br>
+   <input type="checkbox" id="tidning" name="tidning" value="tidning">
+   <label for="tidning"> Tidningar</label><br>
+   <input type="checkbox" id="Online" name="Online" value="Online">
+   <label for="Online"> Online</label>
+	 <br><br>
+</form><hr>
+	 <p>Favorit genre i film </p>
+  <SELECT ONCHANGE="window.location=this.value">
+  <option VALUE="">  </option>
+  <option VALUE=""> Action </option>
+  <option VALUE=""> Romantik </option>
+  <option VALUE=""> Komedi </option>
+  <option VALUE=""> Drama </option>
+  <option VALUE=""> Skräck </option>
+</SELECT><br><br>
+<input type="submit" value="Skicka">
+<hr>
+
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+input#name {
+  width: 35px;
+  display: inline-block;
+}
+textarea#rutan
+{
+  background-color: lightgrey;
+}
