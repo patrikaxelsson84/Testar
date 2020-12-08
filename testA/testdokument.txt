@@ -1,4 +1,9 @@
 bara testar
 Testar
 lite till
-..
+
+lite
+mer
+text
+
+c
